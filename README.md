@@ -1,2 +1,3 @@
 # Walmart_sales_analysis
-This data is about sales by walmart of its three branch in different city. Analysis about its sales based on gender, type of customer is done in this project. Also which branch made most profit by selling product_line is analysied
+This project aims for analysis of trajectory of sales of different branches of the store. This project will help to understand different sales trend, buyers behaviour, performance of branch and product in the store. Project aims to help store to increase their gross profit by increasing thier net sales.
+
