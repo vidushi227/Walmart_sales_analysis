@@ -126,7 +126,11 @@ from sale
 group by branch
 order by round(avg(rating),2) desc
 
---
-
+--for overall review about sales data
+SELECT branch,city,customer_type,gender,product_line,sum(total) as total_sale,sum(quality) as total_quantity_sold,round(avg(rating),2) as avg_rating,
+sum(gross_income) as total_gross_income
+from sale
+group by branch,city,customer_type,gender,product_line
+order by branch,city,customer_type,gender,product_line desc;
 
 
